@@ -1,0 +1,9 @@
+{
+    "nombre": "Aragorn",
+    "nivel": 5,
+    "experiencia": 250,
+    "inventario": [
+        "Espada",
+        "Poci\u00f3n"
+    ]
+}
