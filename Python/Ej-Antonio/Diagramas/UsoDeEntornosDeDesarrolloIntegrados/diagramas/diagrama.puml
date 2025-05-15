@@ -1,0 +1,19 @@
+@startuml
+class Estudiante {
+  -nombre: str
+  -matricula: str
+  +inscribir_curso()
+}
+class Curso {
+  -nombre: str
+  -codigo: str
+  +agregar_estudiante()
+}
+class Profesor {
+  -nombre: str
+  -departamento: str
+  +asignar_curso()
+}
+Profesor "1" --> "*" Curso
+Curso "1" --> "*" Estudiante
+@enduml
